@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Unique Ceramic Shop</string>
+    <string name="hello">As second-generation ceramicists, our unique products come from within. We are artisans making handcrafted ceramic tile at our studio in Italy, Firenze.</string>
+    <string name="Aziende">Zucchioli Ceramica Firenze S.R.L</string>
+    <string name="Indirizzo">Via Nuova 228 | 41042 | Fiorano</string>
+    <string name="Aperto">Monday-Friday:08:00-16:30</string>
+    <string name="nTelefono">+39 0321 583895</string>
+    <string name="Sito">www.uniqueceramic.org</string>
+</resources>

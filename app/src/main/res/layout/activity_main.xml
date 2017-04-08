@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    tools:context="com.example.android.uniqueceramicshop.MainActivity">
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@android:color/holo_orange_light"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home1" />
+
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="12dp"
+            android:text="@string/Aziende"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView_adr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView01"
+            android:paddingBottom="6dp"
+            app:srcCompat="@drawable/ic_home_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView_adr"
+            android:paddingBottom="6dp"
+            app:srcCompat="@drawable/ic_schedule_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView_schedule"
+            app:srcCompat="@drawable/ic_local_phone_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView_browser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView_phone"
+            app:srcCompat="@drawable/ic_open_in_browser_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView01"
+            android:layout_toRightOf="@+id/imageView_adr"
+            android:paddingBottom="6dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Indirizzo"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView02"
+            android:layout_toEndOf="@+id/imageView_schedule"
+            android:layout_toRightOf="@+id/imageView_schedule"
+            android:paddingBottom="6dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Aperto"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView_browser"
+            android:layout_below="@+id/imageView_schedule"
+            android:layout_toEndOf="@+id/imageView_phone"
+            android:layout_toRightOf="@+id/imageView_phone"
+            android:paddingBottom="6dp"
+            android:paddingLeft="8dp"
+            android:text="@string/nTelefono"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/imageView_browser"
+            android:layout_toRightOf="@+id/imageView_browser"
+            android:paddingBottom="0dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Sito"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:background="#039BE5"
+        android:padding="12dp"
+        android:text="@string/hello"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+</LinearLayout>
