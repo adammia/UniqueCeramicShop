@@ -1,3 +1,3 @@
 # UniqueCeramicShop
 This Single Screen App (Project 1.) for Udacity's Android Basics Nanodegree by Google. For education purposes only!
-http://imgur.com/a/Q8dT9
+![screen](../master/art/rsz_screenshot11.png)
